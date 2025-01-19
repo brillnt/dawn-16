@@ -5,12 +5,12 @@
 }
 
 .totals > * {
-  font-size: 1.6rem;
+  font-size: 1rem;
   margin: 0;
 }
 
 .totals > h2 {
-  font-size: calc(var(--font-heading-scale) * 1.6rem);
+  font-size: calc(var(--font-heading-scale) * 1rem);
 }
 
 .totals * {
@@ -18,19 +18,19 @@
 }
 
 .totals > * + * {
-  margin-left: 2rem;
+  margin-left: 1.25rem;
 }
 
 .totals__total {
-  margin-top: .5rem;
+  margin-top: 0.3125rem;
 }
 
 .totals__total-value {
-  font-size: 1.8rem;
+  font-size: 1.125rem;
 }
 
 .cart__ctas + .totals {
-  margin-top: 2rem;
+  margin-top: 1.25rem;
 }
 
 @media all and (min-width: 750px) {

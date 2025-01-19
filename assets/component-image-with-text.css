@@ -18,28 +18,28 @@
 }
 
 .image-with-text__media--small {
-  height: 19.4rem;
+  height: 12.125rem;
 }
 
 .image-with-text__media--medium {
-  height: 29.6rem;
+  height: 18.5rem;
 }
 
 .image-with-text__media--large {
-  height: 43.5rem;
+  height: 27.1875rem;
 }
 
 @media screen and (min-width: 750px) {
   .image-with-text__media--small {
-    height: 31.4rem;
+    height: 19.625rem;
   }
 
   .image-with-text__media--medium {
-    height: 46rem;
+    height: 28.75rem;
   }
 
   .image-with-text__media--large {
-    height: 69.5rem;
+    height: 43.4375rem;
   }
 }
 
@@ -55,12 +55,12 @@
 }
 
 .image-with-text__media--placeholder.image-with-text__media--adapt {
-  height: 20rem;
+  height: 12.5rem;
 }
 
 @media screen and (min-width: 750px) {
   .image-with-text__media--placeholder.image-with-text__media--adapt {
-    height: 30rem;
+    height: 18.75rem;
   }
 }
 
@@ -87,7 +87,7 @@
   height: 100%;
   justify-content: center;
   align-self: center;
-  padding: 4rem calc(4rem / var(--font-body-scale)) 5rem;
+  padding: 2.5rem calc(2.5rem / var(--font-body-scale)) 3.125rem;
   position: relative;
   z-index: 1;
 }
@@ -169,7 +169,7 @@
 
 .image-with-text--overlap .image-with-text__content {
   width: 90%;
-  margin: -3rem auto 0;
+  margin: -1.875rem auto 0;
 }
 
 @media screen and (min-width: 750px) {
@@ -204,20 +204,20 @@
 
   .image-with-text--overlap .image-with-text__text-item {
     display: flex;
-    padding: 3rem 0;
+    padding: 1.875rem 0;
   }
 
   .image-with-text--overlap .image-with-text__content {
     height: auto;
-    width: calc(100% + 4rem);
-    min-width: calc(100% + 4rem);
+    width: calc(100% + 2.5rem);
+    min-width: calc(100% + 2.5rem);
     margin-top: 0;
-    margin-left: -4rem;
+    margin-left: -2.5rem;
   }
 
   .image-with-text--overlap .image-with-text__grid--reverse .image-with-text__content {
     margin-left: 0;
-    margin-right: -4rem;
+    margin-right: -2.5rem;
   }
 
   .image-with-text--overlap .image-with-text__grid--reverse .image-with-text__text-item {
@@ -332,16 +332,16 @@
 
 @media screen and (min-width: 990px) {
   .image-with-text__content {
-    padding: 6rem 7rem 7rem;
+    padding: 3.75rem 4.375rem 4.375rem;
   }
 }
 
 .image-with-text__content > * + * {
-  margin-top: 2rem;
+  margin-top: 1.25rem;
 }
 
 .image-with-text__content > .image-with-text__text:empty ~ a {
-  margin-top: 2rem;
+  margin-top: 1.25rem;
 }
 
 .image-with-text__content > :first-child:is(.image-with-text__heading),
@@ -356,11 +356,11 @@
 }
 
 .image-with-text__content .button + .image-with-text__text {
-  margin-top: 2rem;
+  margin-top: 1.25rem;
 }
 
 .image-with-text__content .image-with-text__text + .button {
-  margin-top: 3rem;
+  margin-top: 1.875rem;
 }
 
 .image-with-text__heading {
@@ -369,7 +369,7 @@
 
 .image-with-text__text p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.625rem;
 }
 
 @media screen and (max-width: 749px) {

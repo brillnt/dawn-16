@@ -5,12 +5,12 @@
 .rich-text__wrapper {
   display: flex;
   justify-content: center;
-  width: calc(100% - 4rem / var(--font-body-scale));
+  width: calc(100% - 2.5rem / var(--font-body-scale));
 }
 
 .rich-text:not(.rich-text--full-width) .rich-text__wrapper {
   margin: auto;
-  width: calc(100% - 8rem / var(--font-body-scale));
+  width: calc(100% - 5rem / var(--font-body-scale));
 }
 
 .rich-text__blocks {
@@ -31,13 +31,13 @@
   }
 
   .rich-text__blocks {
-    max-width: 50rem;
+    max-width: 31.25rem;
   }
 }
 
 @media screen and (min-width: 990px) {
   .rich-text__blocks {
-    max-width: 78rem;
+    max-width: 48.75rem;
   }
 }
 
@@ -51,30 +51,30 @@
 }
 
 .rich-text__blocks > * + * {
-  margin-top: 2rem;
+  margin-top: 1.25rem;
 }
 
 .rich-text__blocks > * + a {
-  margin-top: 3rem;
+  margin-top: 1.875rem;
 }
 
 .rich-text__buttons {
   display: inline-flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 0.625rem;
   width: 100%;
-  max-width: 45rem;
+  max-width: 28.125rem;
   word-break: break-word;
 }
 
 .rich-text__buttons--multiple > * {
   flex-grow: 1;
-  min-width: 22rem;
+  min-width: 13.75rem;
 }
 
 .rich-text__buttons + .rich-text__buttons {
-  margin-top: 1rem;
+  margin-top: 0.625rem;
 }
 
 .rich-text__blocks.left .rich-text__buttons {

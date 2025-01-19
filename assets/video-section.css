@@ -23,7 +23,7 @@
 }
 
 .video-section__poster.deferred-media__poster:focus {
-  outline-offset: 0.3rem;
+  outline-offset: 0.1875rem;
 }
 
 .video-section__media iframe {

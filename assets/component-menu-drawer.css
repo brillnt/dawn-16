@@ -64,7 +64,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 
 @media screen and (min-width: 750px) {
   .menu-drawer {
-    width: 40rem;
+    width: 25rem;
     border-width: 0 var(--drawer-border-width) 0 0;
     border-style: solid;
     border-color: rgba(var(--color-foreground), var(--drawer-border-opacity));
@@ -85,7 +85,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 
 .menu-drawer__navigation {
-  padding: 3rem 0;
+  padding: 1.875rem 0;
 }
 
 .menu-drawer__inner-submenu {
@@ -95,17 +95,17 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 
 .js .menu-drawer__menu li {
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.125rem;
 }
 
 .menu-drawer__menu-item {
-  padding: 1.1rem 3rem;
+  padding: 0.6875rem 1.875rem;
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 1.125rem;
 }
 
 .menu-drawer summary.menu-drawer__menu-item {
-  padding-right: 5.2rem;
+  padding-right: 3.25rem;
 }
 
 .menu-drawer__menu-item--active,
@@ -128,7 +128,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 .menu-drawer__menu-item > .svg-wrapper {
   width: 15px;
   position: absolute;
-  right: 3rem;
+  right: 1.875rem;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -150,12 +150,12 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 
 .menu-drawer__close-button {
-  margin-top: 1.5rem;
-  padding: 1.2rem 2.6rem 1.2rem 3rem;
+  margin-top: 0.9375rem;
+  padding: 0.75rem 1.625rem 0.75rem 1.875rem;
   text-decoration: none;
   display: flex;
   align-items: center;
-  font-size: 1.4rem;
+  font-size: 0.875rem;
   width: 100%;
   background-color: transparent;
   font-family: var(--font-body-family);
@@ -165,7 +165,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 
 .menu-drawer__close-button .svg-wrapper {
   transform: rotate(180deg);
-  margin-right: 1rem;
+  margin-right: 0.625rem;
   width: 15px;
 }
 
@@ -176,18 +176,18 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 
 .header--has-social .menu-drawer__utility-links {
-  padding: 2rem 3rem;
+  padding: 1.25rem 1.875rem;
 }
 
 @media screen and (max-width: 749px) {
   .header--has-account:where(:not(.header--has-social):not(.header--has-localizations)) .menu-drawer__utility-links {
-    padding: 2rem 3rem;
+    padding: 1.25rem 1.875rem;
   }
 }
 
 @media screen and (max-width: 989px) {
   .header--has-localizations:where(:not(.header--has-social)) .menu-drawer__utility-links {
-    padding: 2rem 3rem;
+    padding: 1.25rem 1.875rem;
   }
 }
 
@@ -195,8 +195,8 @@ details[open].menu-opening > .menu-drawer__submenu {
   display: inline-flex;
   align-items: center;
   text-decoration: none;
-  padding: 1rem 0;
-  font-size: 1.4rem;
+  padding: 0.625rem 0;
+  font-size: 0.875rem;
   color: rgb(var(--color-foreground));
   margin-bottom: 0;
 }
@@ -206,15 +206,15 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 
 .menu-drawer__account account-icon > .svg-wrapper {
-  height: 2rem;
-  width: 2rem;
-  margin-right: 1rem;
+  height: 1.25rem;
+  width: 1.25rem;
+  margin-right: 0.625rem;
 }
 
 .menu-drawer__account shop-user-avatar {
-  --shop-avatar-size: 2.4rem;
-  margin-right: 0.55rem;
-  margin-left: -0.45rem;
+  --shop-avatar-size: 1.5rem;
+  margin-right: 0.3438rem;
+  margin-left: -0.2813rem;
 }
 
 .menu-drawer__account:hover account-icon > .svg-wrapper {
@@ -223,7 +223,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 
 .menu-drawer .list-social {
   justify-content: flex-start;
-  margin-left: -1.25rem;
+  margin-left: -0.7813rem;
 }
 
 .menu-drawer .list-social:empty {
@@ -231,7 +231,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 
 .menu-drawer .list-social__link {
-  padding: 1.1rem 1.1rem;
+  padding: 0.6875rem 0.6875rem;
 }
 
 @media screen and (max-width: 749px) {

@@ -4,14 +4,14 @@
 }
 
 .collapsible-section-layout {
-  padding-bottom: 5rem;
-  padding-top: 5rem;
+  padding-bottom: 3.125rem;
+  padding-top: 3.125rem;
 }
 
 @media screen and (min-width: 750px) {
   .collapsible-section-layout {
-    padding-bottom: 7rem;
-    padding-top: 7rem;
+    padding-bottom: 4.375rem;
+    padding-top: 4.375rem;
   }
 }
 
@@ -21,20 +21,20 @@
 }
 
 .collapsible-content__media--small {
-  height: 19.4rem;
+  height: 12.125rem;
 }
 
 .collapsible-content__media--large {
-  height: 43.5rem;
+  height: 27.1875rem;
 }
 
 @media screen and (min-width: 750px) {
   .collapsible-content__media--small {
-    height: 31.4rem;
+    height: 19.625rem;
   }
 
   .collapsible-content__media--large {
-    height: 69.5rem;
+    height: 43.4375rem;
   }
 }
 
@@ -46,9 +46,9 @@
 
 .collapsible-content-wrapper-narrow {
   margin: 0 auto;
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
-  max-width: 73.4rem;
+  padding-right: 0.9375rem;
+  padding-left: 0.9375rem;
+  max-width: 45.875rem;
 }
 
 .collapsible-content__header {
@@ -56,13 +56,13 @@
 }
 
 .collapsible-content__heading {
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
   margin-top: 0;
 }
 
 @media screen and (min-width: 750px) {
   .collapsible-content__heading {
-    margin-bottom: 3rem;
+    margin-bottom: 1.875rem;
   }
 }
 
@@ -71,11 +71,11 @@
 }
 
 .collapsible-row-layout .accordion:not(:first-child):not(.color-scheme-1) {
-  margin-top: 1rem;
+  margin-top: 0.625rem;
 }
 
 .caption-with-letter-spacing + h2 {
-  margin-top: 1rem;
+  margin-top: 0.625rem;
 }
 
 @media screen and (min-width: 750px) {
@@ -86,14 +86,14 @@
 
 .collapsible-row-layout .accordion {
   border: var(--text-boxes-border-width) solid rgba(var(--color-foreground), var(--text-boxes-border-opacity));
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.9375rem;
   /* Needed for gradient continuity with or without animation, the transform scopes the gradient to its container which happens already when animation are turned on */
   transform: perspective(0);
 }
 
 .collapsible-row-layout .accordion summary,
 .collapsible-row-layout .accordion .accordion__content {
-  padding: 1.5rem;
+  padding: 0.9375rem;
 }
 
 .collapsible-row-layout .accordion .accordion__content {
@@ -106,7 +106,7 @@
 
 .collapsible-content summary:hover .accordion__title {
   text-decoration: underline;
-  text-underline-offset: 0.3rem;
+  text-underline-offset: 0.1875rem;
 }
 
 /* check for flexbox gap in older Safari versions */
@@ -114,7 +114,7 @@
   @media screen and (min-width: 750px) {
     .collapsible-content__grid:not(.collapsible-content__grid--reverse) .grid__item:last-child,
     .collapsible-content__grid--reverse .collapsible-content__grid-item {
-      padding-left: 5rem;
+      padding-left: 3.125rem;
       padding-right: 0;
     }
   }
@@ -122,7 +122,7 @@
   @media screen and (min-width: 990px) {
     .collapsible-content__grid:not(.collapsible-content__grid--reverse) .grid__item:last-child,
     .collapsible-content__grid--reverse .collapsible-content__grid-item {
-      padding-left: 7rem;
+      padding-left: 4.375rem;
     }
   }
 }

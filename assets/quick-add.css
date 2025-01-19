@@ -1,12 +1,12 @@
 .quick-add {
   position: relative;
   grid-row-start: 4;
-  margin: 0 0 1rem;
+  margin: 0 0 0.625rem;
   z-index: 1;
 }
 
 .card--card .quick-add {
-  margin: 0 1.3rem 1rem;
+  margin: 0 0.8125rem 0.625rem;
 }
 
 .quick-add-modal {
@@ -36,7 +36,7 @@
 }
 
 .quick-add-modal .quick-order-list__container {
-  padding-bottom: 1.5rem;
+  padding-bottom: 0.9375rem;
 }
 
 .quick-add-modal__content.quick-add-modal__content--bulk {
@@ -44,7 +44,7 @@
 }
 
 .quick-add-modal__content {
-  --modal-height-offset: 3.2rem;
+  --modal-height-offset: 2rem;
   position: absolute;
   top: 0;
   left: 50%;
@@ -54,12 +54,12 @@
   background-color: rgb(var(--color-background));
   overflow: hidden;
   max-width: var(--page-width);
-  width: calc(100% - 3rem);
+  width: calc(100% - 1.875rem);
 }
 
 @media screen and (min-width: 750px) {
   .quick-add-modal__content {
-    --modal-height-offset: 10rem;
+    --modal-height-offset: 6.25rem;
     margin-top: var(--modal-height-offset);
     width: 80%;
     max-height: calc(100% - var(--modal-height-offset) * 2);
@@ -67,8 +67,8 @@
   }
 
   quick-add-modal .quick-add-modal__toggle {
-    top: 2rem;
-    right: 2rem;
+    top: 1.25rem;
+    right: 1.25rem;
   }
 }
 
@@ -87,7 +87,7 @@
 }
 
 .quick-add-modal__content-info--bulk h3 {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3125rem;
   margin-top: 0;
 }
 
@@ -97,18 +97,18 @@
 }
 
 .section-bulk-quick-order-list-padding {
-  padding-top: 2.7rem;
-  padding-bottom: 2.7rem;
+  padding-top: 1.6875rem;
+  padding-bottom: 1.6875rem;
 }
 
 @media screen and (min-width: 750px) {
   .section-bulk-quick-order-list-padding {
-    padding-top: 3.6rem;
-    padding-bottom: 3.6rem;
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
   }
 
   .quick-add-modal__content-info--bulk .card__information-volume-pricing-note {
-    padding-left: 1.6rem;
+    padding-left: 1rem;
   }
 }
 
@@ -118,7 +118,7 @@
   }
 
   .quick-add-modal__content-info--bulk .quick-order-list__table th {
-    padding-top: 2.5rem;
+    padding-top: 1.5625rem;
   }
 
   .quick-add-modal__content-info--bulk thead {
@@ -132,35 +132,35 @@
 .quick-add-modal__content-info--bulk .quick-add__product-media,
 .quick-add-modal__content-info--bulk .quick-add__product-container,
 .quick-add-modal__content-info--bulk .quick-add__info {
-  width: 4.8rem;
-  height: 7rem;
+  width: 3rem;
+  height: 4.375rem;
 }
 
 .quick-add-modal__content-info--bulk-details {
-  padding-left: 1rem;
+  padding-left: 0.625rem;
 }
 
 .quick-add-modal__content-info--bulk-details > a:hover {
   text-decoration: underline;
-  text-underline-offset: 0.3rem;
+  text-underline-offset: 0.1875rem;
 }
 
 @media screen and (min-width: 990px) {
   .quick-add-modal__content-info--bulk .quick-add__product-media,
   .quick-add-modal__content-info--bulk .quick-add__product-container,
   .quick-add-modal__content-info--bulk .quick-add__info {
-    width: 17rem;
-    height: 22rem;
+    width: 10.625rem;
+    height: 13.75rem;
   }
 
   .quick-add-modal__content-info--bulk-details,
   .quick-add-modal__content-info--bulk quick-order-list {
-    padding: 0 2.5rem;
+    padding: 0 1.5625rem;
   }
 }
 
 .quick-add__product-media {
-  margin-bottom: 1rem;
+  margin-bottom: 0.625rem;
 }
 
 .quick-add-modal__content-info--bulk .quick-add__product-container img {
@@ -189,7 +189,7 @@
   }
 
   .quick-add-modal__content-info.quick-add-modal__content-info--bulk {
-    --modal-padding: 1.5rem;
+    --modal-padding: 0.9375rem;
   }
 }
 
@@ -198,8 +198,8 @@
     flex-direction: column;
     position: sticky;
     top: 0;
-    margin-top: -2.5rem;
-    padding-top: 2.5rem;
+    margin-top: -1.5625rem;
+    padding-top: 1.5625rem;
   }
 }
 
@@ -210,8 +210,8 @@
 }
 
 .quick-add-modal__content-info {
-  --modal-padding: 2.5rem;
-  padding-right: 4.4rem;
+  --modal-padding: 1.5625rem;
+  padding-right: 2.75rem;
   display: flex;
   overflow-y: auto;
   overflow-x: hidden;
@@ -232,8 +232,8 @@
 
 @media screen and (max-width: 749px) {
   quick-add-modal .slider .product__media-item.grid__item {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: 0.9375rem;
+    margin-right: 0.9375rem;
   }
 
   .quick-add-modal__content {
@@ -245,25 +245,25 @@
   }
 
   quick-add-modal .product--mobile-columns .product__media-item {
-    width: calc(100% - 3rem - var(--grid-mobile-horizontal-spacing));
+    width: calc(100% - 1.875rem - var(--grid-mobile-horizontal-spacing));
   }
 }
 
 .quick-add-modal__toggle {
   background-color: rgb(var(--color-background));
-  border: 0.1rem solid rgba(var(--color-foreground), 0.1);
+  border: 0.0625rem solid rgba(var(--color-foreground), 0.1);
   border-radius: 50%;
   color: rgba(var(--color-foreground), 0.55);
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  padding: 1.2rem;
+  padding: 0.75rem;
   z-index: 5;
-  width: 4rem;
+  width: 2.5rem;
   position: fixed;
-  top: 1.5rem;
-  right: 1.5rem;
+  top: 0.9375rem;
+  right: 0.9375rem;
 }
 
 .quick-add-modal__toggle:hover {
@@ -273,7 +273,7 @@
 .quick-add-modal__toggle .icon {
   height: auto;
   margin: 0;
-  width: 2.2rem;
+  width: 1.375rem;
 }
 
 quick-add-modal .product:not(.featured-product) .product__view-details {
@@ -281,7 +281,7 @@ quick-add-modal .product:not(.featured-product) .product__view-details {
 }
 
 .quick-add-modal__content--bulk .product__view-details .icon {
-  margin-left: 1.2rem;
+  margin-left: 0.75rem;
 }
 
 quick-add-modal .quick-add-hidden,
@@ -315,8 +315,8 @@ quick-add-modal .product__column-sticky {
   }
 
   quick-add-modal .product:not(.product--no-media) .product__info-wrapper {
-    padding-top: 2rem;
-    padding-left: 4rem;
+    padding-top: 1.25rem;
+    padding-left: 2.5rem;
     max-width: 54%;
     width: calc(54% - var(--grid-desktop-horizontal-spacing) / 2);
   }
@@ -347,8 +347,8 @@ quick-add-modal .product__title > a {
 quick-add-modal .product__title > a:hover {
   color: rgb(var(--color-foreground));
   text-decoration: underline;
-  text-underline-offset: 0.2rem;
-  text-decoration-thickness: 0.3rem;
+  text-underline-offset: 0.125rem;
+  text-decoration-thickness: 0.1875rem;
 }
 
 quick-add-modal .product-form__buttons {
@@ -356,7 +356,7 @@ quick-add-modal .product-form__buttons {
 }
 
 .quick-add__submit {
-  padding: 0.8rem;
+  padding: 0.5rem;
   min-width: 100%;
   box-sizing: border-box;
 }
@@ -374,7 +374,7 @@ quick-add-modal .product-media-container.constrain-height {
 quick-add-bulk {
   position: relative;
   grid-row-start: 4;
-  margin: 0 0 1rem;
+  margin: 0 0 0.625rem;
   z-index: 1;
 }
 
@@ -397,7 +397,7 @@ quick-add-bulk quantity-input {
 }
 
 quick-add-bulk .quantity__input {
-  max-width: calc(6.5rem / var(--font-body-scale));
+  max-width: calc(4.0625rem / var(--font-body-scale));
   flex-grow: 0;
 }
 

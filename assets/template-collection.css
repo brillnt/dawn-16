@@ -7,14 +7,14 @@
 
 @media screen and (max-width: 989px) {
   .collection .slider.slider--tablet {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.9375rem;
   }
 }
 
 .collection .loading-overlay {
   position: absolute;
   z-index: 1;
-  width: 1.8rem;
+  width: 1.125rem;
 }
 
 @media screen and (max-width: 749px) {
@@ -37,14 +37,14 @@
   left: 0;
   display: none;
   width: 100%;
-  padding: 0 1.5rem;
+  padding: 0 0.9375rem;
   opacity: 0.7;
 }
 
 @media screen and (min-width: 750px) {
   .collection .loading-overlay {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
   }
 }
 
@@ -53,13 +53,13 @@
 }
 
 .collection--empty .title-wrapper {
-  margin-top: 10rem;
-  margin-bottom: 15rem;
+  margin-top: 6.25rem;
+  margin-bottom: 9.375rem;
 }
 
 @media screen and (max-width: 989px) {
   .collection .slider--tablet.product-grid {
-    scroll-padding-left: 1.5rem;
+    scroll-padding-left: 0.9375rem;
   }
 }
 
@@ -68,20 +68,20 @@
 }
 
 .collection__title.title-wrapper {
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5625rem;
 }
 
 .collection__title .title:not(:only-child) {
-  margin-bottom: 1rem;
+  margin-bottom: 0.625rem;
 }
 
 @media screen and (min-width: 990px) {
   .collection__title--desktop-slider .title {
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5625rem;
   }
 
   .collection__title.title-wrapper--self-padded-tablet-down {
-    padding: 0 5rem;
+    padding: 0 3.125rem;
   }
 
   .collection slider-component:not(.page-width-desktop) {
@@ -89,11 +89,11 @@
   }
 
   .collection--full-width slider-component:not(.slider-component-desktop) {
-    padding: 0 1.5rem;
+    padding: 0 0.9375rem;
     max-width: none;
   }
 }
 
 .collection__view-all a:not(.link) {
-  margin-top: 1rem;
+  margin-top: 0.625rem;
 }

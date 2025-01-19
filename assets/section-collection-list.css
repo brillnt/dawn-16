@@ -19,8 +19,8 @@
   }
 
   .section-collection-list .collection-list:not(.slider) {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
   }
 }
 
@@ -57,5 +57,5 @@
 }
 
 .collection-list-view-all {
-  margin-top: 2rem;
+  margin-top: 1.25rem;
 }

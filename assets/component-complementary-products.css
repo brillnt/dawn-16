@@ -1,15 +1,15 @@
 .complementary-products__container {
   display: flex;
   flex-direction: column;
-  gap: 1.3rem;
+  gap: 0.8125rem;
 }
 
 product-recommendations:not(.is-accordion) .complementary-products__container {
-  margin-top: 1.5rem;
+  margin-top: 0.9375rem;
 }
 
 .complementary-products__container > details[open] {
-  padding-bottom: 1.5rem;
+  padding-bottom: 0.9375rem;
 }
 
 .complementary-slider {
@@ -59,7 +59,7 @@ product-recommendations:not(.is-accordion) .complementary-products__container {
 .complementary-products > .summary__title {
   display: flex;
   line-height: 1;
-  padding: 1.5rem 0;
+  padding: 0.9375rem 0;
 }
 
 .accordion + product-recommendations .accordion,
@@ -70,9 +70,9 @@ product-recommendations.is-accordion + .accordion {
 
 .complementary-products > .summary__title .icon-accordion {
   fill: rgb(var(--color-foreground));
-  height: calc(var(--font-heading-scale) * 2rem);
-  margin-right: calc(var(--font-heading-scale) * 1rem);
-  width: calc(var(--font-heading-scale) * 2rem);
+  height: calc(var(--font-heading-scale) * 1.25rem);
+  margin-right: calc(var(--font-heading-scale) * 0.625rem);
+  width: calc(var(--font-heading-scale) * 1.25rem);
 }
 
 .complementary-products__container .card--card .card__content,
@@ -112,16 +112,16 @@ product-recommendations.is-accordion + .accordion {
 
 .complementary-products__container .card--horizontal .quick-add {
   margin: 0;
-  max-width: 20rem;
+  max-width: 12.5rem;
 }
 
 .complementary-products__container .quick-add__submit {
-  padding: 1.5rem 0;
+  padding: 0.9375rem 0;
   min-height: inherit;
 }
 
 .complementary-products__container .quick-add__submit .icon-plus {
-  width: 1.2rem;
+  width: 0.75rem;
 }
 
 .complementary-products__container .icon-wrap {
@@ -156,6 +156,6 @@ product-recommendations.is-accordion + .accordion {
 
 @media screen and (min-width: 750px) {
   .complementary-products__container .price--on-sale .price-item--regular {
-    font-size: 1.3rem;
+    font-size: 0.8125rem;
   }
 }

@@ -5,7 +5,7 @@
   max-width: 100%;
   border-radius: var(--swatch-input--border-radius);
   cursor: pointer;
-  outline-offset: 0.2rem;
+  outline-offset: 0.125rem;
   outline-color: transparent;
   outline-style: solid;
   transition-property: outline-color, outline-width, box-shadow;
@@ -15,32 +15,32 @@
 }
 
 .swatch-input__input + .swatch-input__label.swatch-input__label--square {
-  --swatch-input--border-radius: 0.2rem;
+  --swatch-input--border-radius: 0.125rem;
 }
 
 /* Active state */
 .swatch-input__input:active + .swatch-input__label,
 .swatch-input__input:checked + .swatch-input__label {
-  outline: 0.1rem solid rgb(var(--color-foreground));
+  outline: 0.0625rem solid rgb(var(--color-foreground));
 }
 
 /* Hover state */
 .swatch-input__input + .swatch-input__label:hover,
 .swatch-input__input:hover + .swatch-input__label {
-  outline: 0.2rem solid rgba(var(--color-foreground), 0.4);
+  outline: 0.125rem solid rgba(var(--color-foreground), 0.4);
 }
 
 /* Focus visible */
 .swatch-input__input:focus-visible + .swatch-input__label {
-  outline: 0.2rem solid rgba(var(--color-foreground), 0.5);
-  box-shadow: 0 0 0 0.2rem rgb(var(--color-background)), 0 0 0.1rem 0.5rem rgba(var(--color-foreground), 0.25);
+  outline: 0.125rem solid rgba(var(--color-foreground), 0.5);
+  box-shadow: 0 0 0 0.125rem rgb(var(--color-background)), 0 0 0.0625rem 0.3125rem rgba(var(--color-foreground), 0.25);
 }
 
 /* Active and focused */
 .swatch-input__input:active:focus-visible + .swatch-input__label,
 .swatch-input__input:checked:focus-visible + .swatch-input__label {
-  outline: 0.1rem solid rgb(var(--color-foreground));
-  box-shadow: 0 0 0 0.2rem rgb(var(--color-background)), 0 0 0.1rem 0.4rem rgba(var(--color-foreground), 0.25);
+  outline: 0.0625rem solid rgb(var(--color-foreground));
+  box-shadow: 0 0 0 0.125rem rgb(var(--color-background)), 0 0 0.0625rem 0.25rem rgba(var(--color-foreground), 0.25);
 }
 
 /* Visually disabled */
@@ -74,7 +74,7 @@
 .swatch-input__input.visually-disabled + .swatch-input__label > .swatch::after {
   /* Diagonal of a square = length of the side * sqrt(2)  */
   --diagonal--size: calc(var(--swatch-input--size) * 1.414);
-  --crossed-line--size: 0.1rem;
+  --crossed-line--size: 0.0625rem;
   content: '';
   position: absolute;
   bottom: calc(var(--crossed-line--size) * -0.5);

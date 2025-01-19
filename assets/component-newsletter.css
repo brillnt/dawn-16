@@ -11,7 +11,7 @@
   .newsletter-form {
     align-items: flex-start;
     margin: 0 auto;
-    max-width: 36rem;
+    max-width: 22.5rem;
   }
 }
 
@@ -20,7 +20,7 @@
 }
 
 .newsletter-form__field-wrapper .field__input {
-  padding-right: 5rem;
+  padding-right: 3.125rem;
 }
 
 .newsletter-form__field-wrapper .field {
@@ -33,7 +33,7 @@
 }
 
 .newsletter-form__message--success {
-  margin-top: 2rem;
+  margin-top: 1.25rem;
 }
 
 @media screen and (min-width: 750px) {
@@ -43,7 +43,7 @@
 }
 
 .newsletter-form__button {
-  width: 4.4rem;
+  width: 2.75rem;
   margin: 0;
   right: var(--inputs-border-width);
   top: 0;
@@ -52,12 +52,12 @@
 }
 
 .newsletter-form__button:focus-visible {
-  box-shadow: 0 0 0 0.3rem rgb(var(--color-background)), 0 0 0 0.4rem rgba(var(--color-foreground));
+  box-shadow: 0 0 0 0.1875rem rgb(var(--color-background)), 0 0 0 0.25rem rgba(var(--color-foreground));
   background-color: rgb(var(--color-background));
 }
 
 .newsletter-form__button:focus {
-  box-shadow: 0 0 0 0.3rem rgb(var(--color-background)), 0 0 0 0.4rem rgba(var(--color-foreground));
+  box-shadow: 0 0 0 0.1875rem rgb(var(--color-background)), 0 0 0 0.25rem rgba(var(--color-foreground));
   background-color: rgb(var(--color-background));
 }
 
@@ -67,5 +67,5 @@
 }
 
 .newsletter-form__button .icon {
-  width: 1.5rem;
+  width: 0.9375rem;
 }
